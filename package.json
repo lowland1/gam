@@ -4,7 +4,7 @@
   "description": "Password-protected static site example on Render",
   "main": "index.js",
   "scripts": {
-    "build": "pagecrypt src/selenite dist/index.html $PASSWORD && cp -R src/css dist/"
+    "build": "pagecrypt src/selenite dist/selenite $PASSWORD && cp -R src/css dist/"
   },
   "author": "Render Developers",
   "license": "MIT",

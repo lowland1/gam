@@ -2,7 +2,7 @@
   "name": "pagecrypt-example",
   "version": "1.0.0",
   "description": "Password-protected static site example on Render",
-  "main": "index.js",
+  "main": "/selenite",
   "scripts": {
     "build": "pagecrypt src/selenite dist/selenite $PASSWORD && cp -R src/css dist/"
   },
